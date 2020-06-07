@@ -4,3 +4,48 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 *, *:before, *:after {box-sizing: inherit}
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Sirin Stencil', cursive;
+  font-weight: 400;
+  font-size: 35px;
+  background-image: transparent;
+}
+
+h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper */
+.wrapper {
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* Nav Styles */
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  justify-content: right;
+}
+li {
+  list-style: none;
+}
+/* Header Style */
+/* Main */
+/* Typography */
+/* About Section */
+/* Services Section */
+/* Footer Section */
